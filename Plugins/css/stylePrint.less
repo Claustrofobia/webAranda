@@ -1,0 +1,340 @@
+@colPrim: #003970;
+@colAC: #679fd3;
+@colSec: #ddd;
+@colVerde : #03b739;
+@colTer: #494949;
+
+
+
+
+.blanco{
+	color: #fff;
+}
+
+*{
+	margin: 0px;
+	margin-top: 0px;
+}
+
+.nopadding{
+	padding:0px !important;
+}
+
+.titulo{
+	font-family: calibri; 
+	font-size: 14px; 
+	padding: 10px;
+	text-align: right;
+}
+
+.tituloDer{
+	font-family: calibri; 
+	font-size: 14px; 
+	padding: 10px;
+	text-align: left;
+}
+
+.resaltar{
+	color: @colPrim;
+	font-weight: bolder;
+}
+
+.mitabla{
+	thead>tr>td{
+		/* border-bottom:1px solid @colPrim; */
+		padding: 10px;
+		/* color: #fff; */
+	}
+
+	tbody>tr>td{
+		font-family: calibri;
+		font-size: 11px;
+		padding: 10px;
+	}
+}
+
+.mitabla2{
+	.mitabla;
+	tbody>tr>td{
+		.nopadding;
+	}
+}
+
+.centrar{
+	text-align: center;
+}
+
+.izq{
+	text-align: right;
+}
+
+.just{
+	text-align: justify;
+}
+
+.ptable{
+	padding: 10px !important;
+}
+
+.pintar{
+	background-color: #e9ebee;
+	-webkit-print-color-adjust: exact; 
+}
+
+.pintar2{
+	background-color: transparent;
+	color: red !important;	
+}
+
+.rellenoverde{
+	background-color:@colVerde;
+	-webkit-print-color-adjust: exact; 
+}
+
+
+.pintargris{
+	background-color:#e9ebee;
+	-webkit-print-color-adjust: exact; 	
+}
+
+.pintartable{
+	background-color: #777777;
+	-webkit-print-color-adjust: exact; 
+	color: #fff;
+	font-size: 12px;
+}
+
+.txtBlack{
+	color: #000;
+}
+
+.tituloEsp{
+	.titulo;
+	font-size: 10px !important;
+	color: #000 !important;
+}
+
+.bt{
+	border-top: 1px solid @colSec;
+}
+
+.bb{
+	border-bottom: 1px solid @colSec;
+}
+
+.br{
+	border-right: 1px solid @colSec;
+}
+
+.bl{
+	border-left: 1px solid @colSec;
+}
+
+.blanco{
+	color: #000;
+}
+
+.pintartitulo{
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	.pintar;
+	font-size: 12px !important;
+}
+
+
+.pintartituloOne{
+
+
+	background-color: #00366b;
+	-webkit-print-color-adjust: exact; 
+
+	/*
+	border-top: 1px solid #00366b;
+	border-right: 1px solid #00366b;
+	border-left: 1px solid #00366b;
+	*/
+
+	font-size: 11px !important;
+	color: #fff;
+
+
+}
+
+.pintartituloTwo{
+
+
+	background-color: #5e95ed;
+	-webkit-print-color-adjust: exact; 
+
+/*	border-top: 1px solid #e9ebee;
+	border-right: 1px solid #e9ebee;
+	border-left: 1px solid #e9ebee;*/
+
+	font-size: 11px !important;
+	color: #fff;
+
+
+}
+
+.pintartituloFin{
+
+
+	background-color: #a00e0e;
+	-webkit-print-color-adjust: exact; 
+
+/*	border-top: 1px solid #e9ebee;
+	border-right: 1px solid #e9ebee;
+	border-left: 1px solid #e9ebee;*/
+
+	font-size: 11px !important;
+	color: #fff;
+
+
+}
+
+.pintartituloIva{
+
+
+	background-color: #548235;
+	-webkit-print-color-adjust: exact; 
+
+/*	border-top: 1px solid #e9ebee;
+	border-right: 1px solid #e9ebee;
+	border-left: 1px solid #e9ebee;*/
+
+	font-size: 11px !important;
+	color: #fff;
+
+
+}
+
+.pintartituloImporte{
+
+
+	background-color: #0393a1;
+	-webkit-print-color-adjust: exact; 
+
+/*	border-top: 1px solid #e9ebee;
+	border-right: 1px solid #e9ebee;
+	border-left: 1px solid #e9ebee;*/
+
+	font-size: 11px !important;
+	color: #fff;
+
+
+}
+
+.pintartituloImporteProd{
+
+
+	background-color: #dc911b;
+	-webkit-print-color-adjust: exact; 
+
+/*	border-top: 1px solid #e9ebee;
+	border-right: 1px solid #e9ebee;
+	border-left: 1px solid #e9ebee;*/
+
+	font-size: 11px !important;
+	color: #fff;
+
+
+}
+
+.pintarsub{
+	background-color: #e9ebee;
+	-webkit-print-color-adjust: exact;	
+}
+
+.separar{
+	padding-left: 5px;
+}
+
+@media all {
+   div.saltopagina{
+      display: none;
+   }
+}
+   
+@media print{
+	@page { size:auto;}
+	 body { margin: 5mm 10mm 5mm 9mm; }
+
+   div.saltopagina{ 
+      display:block; 
+      page-break-before:always;
+   }
+}
+
+.infoinicial{
+	
+	tr>td{
+		padding: 2px !important;
+	}
+
+	.pintartitulo{
+		padding: 5px !important;	
+	}
+
+	.tituloDer td{
+		padding-left: 5px !important;
+	}
+
+	.resaltar{
+		font-size: 10px !important;
+
+	}
+}
+
+.ocutot{
+	font-size: 20px;
+	font-family: calibri;
+	font-weight: bolder;
+	color: @colPrim;
+}
+
+.ocutot2{
+	.ocutot;
+	font-size: 16px;
+	color: @colTer;
+}
+
+.bloque{
+	width:155px; 
+	height: 50px;
+	padding: 10px; 
+	float: left;
+	text-align: center;
+	font-family: calibri;
+	font-size: 12px;
+	border:1px solid #dbd9d9;
+	margin-left: 1px;
+	/* background-color: #dbd9d9; */
+}
+
+.bloquex{
+	.bloque;
+	width: 214px;
+}
+
+.clear{
+	clear: both;
+}
+
+.line{
+	border-bottom: 1px solid #213c6d;
+}
+
+.infodivini{
+	font-family: calibri; 
+	font-size: 12px; 
+}
+
+.SizeFuente{
+	font-size: 14px !important;
+}
+
+.resaltarTitle{
+	.SizeFuente;
+	.resaltar;
+}

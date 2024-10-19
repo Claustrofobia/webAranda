@@ -1,0 +1,209 @@
+.imagenLogo {
+  cursor: pointer;
+}
+
+.imagenMenos {
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 12px 15px 15px 15px !important;
+  background-color: #18345c;
+}
+.modal-footer {
+  background-color: #f3f3f3 !important;
+  padding: 10px 10px 10px !important;
+}
+.swal2-container {
+  z-index: 100000 !important;
+}
+.modal-body {
+  padding: 15px;
+}
+
+.modal-title {
+  padding-bottom: 0px;
+  color: #fff;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #a13737;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  line-height: normal;
+  padding: 0;
+}
+
+.close:hover {
+  color: #580c0c;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #000;
+}
+
+.btn-primary {
+  background-color: #18345c !important;
+  outline-color: #18345c !important;
+  color: #fff;
+}
+.modal-header {
+  background-color: #18345c !important;
+}
+
+.btn-primary:hover {
+  background-color: #18345c !important;
+}
+
+#calidad {
+  max-width: 100%; /* Puedes ajustar este valor según tus necesidades */
+  width: 100%;
+  box-sizing: border-box; /* Incluir el padding en el ancho total */
+}
+
+#cuerpoTablaCalidad {
+  max-height: 200px; /* Establece la altura máxima del tbody */
+  overflow-y: auto; /* Permite que el contenido sea desplazable verticalmente si se desborda */
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  color: #212529;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.custom-file-upload:hover {
+  background-color: #e9ecef;
+}
+
+#file-upload {
+  display: none;
+}
+
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 50px auto;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: 10px;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label:after {
+  content: '\f040';
+  font-family: 'FontAwesome';
+  color: #757575;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload .avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #f8f8f8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Para navegadores Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo de la pista del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #18345c; /* Color del thumb del scrollbar */
+  border-radius: 10px; /* Bordes redondeados */
+  border: 3px solid #f1f1f1; /* Espacio alrededor del thumb */
+}
+
+/* Para navegadores Firefox */
+html {
+  scrollbar-width: thin !important; /* Ancho del scrollbar */
+  scrollbar-color: #18345c #f1f1f1; /* Color del thumb y de la pista */
+}
+
+/* Para personalizar scrollbars en otros elementos específicos */
+.dataTables_scrollBody {
+  overflow-y: scroll;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar {
+  width: 12px;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+  background-color: #18345c;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+.dataTables_scrollBody {
+  scrollbar-width: thin !important;
+  scrollbar-color: #18345c #f1f1f1;
+}
+
+.separar {
+  margin-top: 10px !important;
+}
